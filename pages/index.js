@@ -159,7 +159,7 @@ export default function Home() {
       <div>
         <div className="rounded-2xl border border-emerald-200/50 overflow-hidden shadow-md">
           <div className="px-4 py-3 bg-emerald-50 border-b border-emerald-200 text-stone-800 font-medium">Dashboard</div>
-          <div className="p-4"><div id="sol-dash"><!-- Placeholder to keep layout consistent --></div></div>
+          <div id="sol-dash">{/* Placeholder to keep layout consistent */}</div>
         </div>
         {/* Keep the real dashboard elsewhere to avoid duplicate heavy charts; or replace this div with <Dashboard /> if desired */}
       </div>
