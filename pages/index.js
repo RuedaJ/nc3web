@@ -2,10 +2,12 @@ import Head from 'next/head'
 import { motion } from 'framer-motion'
 import dynamic from 'next/dynamic'
 import { useState } from 'react'
-import Dashboard from '../components/Dashboard'
-import ExportButtons from '../components/ExportButtons'
+
+
 
 const MapWrapper = dynamic(() => import('../components/Map'), { ssr: false })
+const Dashboard = dynamic(() => import('../components/Dashboard'), { ssr: false })
+const ExportButtons = dynamic(() => import('../components/ExportButtons'), { ssr: false })
 
 const fadeUp = { hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0, transition: { duration: 0.6 } } }
 
