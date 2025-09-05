@@ -75,7 +75,13 @@ export default function Home() {
           <div className="text-xl font-semibold text-stone-900">{title}</div>
           <p className="text-stone-700 mt-2">{desc}</p>
         </div>
-   <section id="soluciones" className="py-16">
+   
+      ))}
+    </div>
+  </div>
+</section>
+
+<section id="soluciones" className="py-16">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <h2 className="text-2xl md:text-4xl font-bold text-stone-900 mb-6">Soluciones por Sector</h2>
 
