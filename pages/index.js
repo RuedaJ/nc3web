@@ -244,7 +244,6 @@ export default function Home() {
                   aria-label="Abrir LinkedIn de Cristina Lafuente"
                 />
                 <div className="flex gap-4 items-start">
-                  //<div className="h-20 w-20 rounded-xl bg-emerald-200 border border-emerald-300"></div>
                   <div>
                     <div className="text-lg font-semibold text-stone-900">Cristina Lafuente</div>
                     <div className="text-emerald-800 font-medium">Directora de Soluciones Regenerativas</div>
@@ -265,7 +264,6 @@ export default function Home() {
                   aria-label="Abrir LinkedIn de Juan Rueda"
                 />
                 <div className="flex gap-4 items-start">
-                  //<div className="h-20 w-20 rounded-xl bg-emerald-200 border border-emerald-300"></div>
                   <div>
                     <div className="text-lg font-semibold text-stone-900">Juan Rueda</div>
                     <div className="text-emerald-800 font-medium">Asesor en Tecnología y ESG</div>
