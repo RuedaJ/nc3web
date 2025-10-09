@@ -273,7 +273,7 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap gap-3 md:justify-end">
               <div className="w-full mt-6 md:mt-0 md:w-auto md:ml-auto text-white/90">
-                <div className="mt-4">📧 info@capitalnaturaleval.com</div>
+                <div className="mt-4">📧 info@naturepulse.com</div>
                 <div className="mt-1">📱 +34 XXX XXX XXX</div>
                 <div className="mt-1">🌐 LinkedIn | Twitter | Medium</div>
               </div>
