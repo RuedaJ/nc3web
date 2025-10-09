@@ -65,7 +65,7 @@ export default function Home() {
                 En <span className="font-semibold">CapitalNaturalEval</span>, ayudamos a las organizaciones a integrar
                 Soluciones Basadas en la Naturaleza (SbN/NbS) en su estrategia, desbloqueando valor más allá del
                 beneficio financiero. Identificamos oportunidades, comparamos alternativas y construimos casos de negocio
-                que integran beneficios climáticos, de biodiversidad y sociales —basados en evidencia y listos para decidir.
+                que integran beneficios climáticos, de biodiversidad y sociales - basados en evidencia y listos para decidir.
               </p>
 
               <div className="flex flex-wrap gap-3">
@@ -259,83 +259,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Casos de Éxito */}
-        <section id="casos" className="py-16 bg-gradient-to-b from-emerald-50/60 to-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl md:text-4xl font-bold text-stone-900 mb-6">Casos de Éxito</h2>
-
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="border border-emerald-200/70 rounded-2xl overflow-hidden">
-                <div className="px-4 py-3 bg-emerald-50 border-b border-emerald-200 font-medium">AWS Zaragoza</div>
-                <div className="p-6 grid gap-4 md:grid-cols-2">
-                  <div className="rounded-xl border border-emerald-200/60 p-4 bg-white/70">
-                    <div className="h-40 rounded-lg border border-emerald-200 bg-emerald-50 flex items-center justify-center">
-                      Mapa/Imagen
-                    </div>
-                  </div>
-                  <div className="space-y-3 text-stone-700">
-                    <div className="p-3 rounded-xl border border-emerald-200/70 bg-emerald-50/60">
-                      <div className="text-sm">Reducción riesgo hídrico</div>
-                      <div className="text-2xl font-semibold text-stone-900">40% ↑</div>
-                    </div>
-                    <div className="p-3 rounded-xl border border-emerald-200/70 bg-emerald-50/60">
-                      <div className="text-sm">Tiempo implementación</div>
-                      <div className="text-2xl font-semibold text-stone-900">3 meses</div>
-                    </div>
-                    <div className="p-3 rounded-xl border border-emerald-200/70 bg-emerald-50/60">
-                      <div className="text-sm">ROI regenerativo</div>
-                      <div className="text-2xl font-semibold text-stone-900">2.5x</div>
-                    </div>
-                    <p className="text-sm">
-                      “La evaluación de escasez hídrica nos permitió diseñar estrategias de regeneración hidrológica
-                      para nuestro centro de datos, alineando operaciones con sostenibilidad.”
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="border border-emerald-200/70 rounded-2xl overflow-hidden">
-                <div className="px-4 py-3 bg-emerald-50 border-b border-emerald-200 font-medium">Commonland</div>
-                <div className="p-6 grid gap-4 md:grid-cols-2">
-                  <div className="rounded-xl border border-emerald-200/60 p-4 bg-white/70">
-                    <div className="h-40 rounded-lg border border-emerald-200 bg-emerald-50 flex items-center justify-center">
-                      Mapa/Imagen
-                    </div>
-                  </div>
-                  <div className="space-y-3 text-stone-700">
-                    <div className="p-3 rounded-xl border border-emerald-200/70 bg-emerald-50/60">
-                      <div className="text-sm">Áreas priorizadas</div>
-                      <div className="text-2xl font-semibold text-stone-900">+12</div>
-                    </div>
-                    <div className="p-3 rounded-xl border border-emerald-200/70 bg-emerald-50/60">
-                      <div className="text-sm">Tiempo de análisis</div>
-                      <div className="text-2xl font-semibold text-stone-900">2 semanas</div>
-                    </div>
-                    <div className="p-3 rounded-xl border border-emerald-200/70 bg-emerald-50/60">
-                      <div className="text-sm">Conectores críticos</div>
-                      <div className="text-2xl font-semibold text-stone-900">7</div>
-                    </div>
-                    <p className="text-sm">
-                      “Priorizamos áreas críticas para restauración paisajística, logrando conexiones ecológicas más efectivas en tiempo récord.”
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-        {/* Funcionalidades */}
-        <section id="funcionalidades" className="py-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl md:text-4xl font-bold text-stone-900 mb-6">Funcionalidades Clave</h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              <MapWrapper />
-              <Dashboard />
-            </div>
-          </div>
-        </section>
 
         {/* Equipo */}
         <section id="equipo" className="py-16 bg-gradient-to-b from-white to-lime-50/50">
