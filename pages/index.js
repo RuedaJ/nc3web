@@ -224,23 +224,6 @@ export default function Home() {
                   </>
                 )}
               </div>
-
-              <div>
-                <div className="rounded-2xl border border-emerald-200/50 overflow-hidden shadow-md">
-                  <div className="px-4 py-3 bg-emerald-50 border-b border-emerald-200 text-stone-800 font-medium">
-                    Dashboard
-                  </div>
-                  <div className="p-4">
-                    <div id="sol-dash">
-                      {/* Placeholder para mantener consistencia visual; si prefieres, sustituir por <Dashboard /> */}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-6">
-              <ExportButtons />
             </div>
           </div>
         </section>
@@ -294,7 +277,6 @@ export default function Home() {
                 <div className="mt-1">📱 +34 XXX XXX XXX</div>
                 <div className="mt-1">🌐 LinkedIn | Twitter | Medium</div>
               </div>
-              <ExportButtons />
             </div>
           </div>
         </section>
