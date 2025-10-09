@@ -4,8 +4,8 @@ import dynamic from 'next/dynamic'
 import { useState } from 'react'
 
 const MapWrapper = dynamic(() => import('../components/Map'), { ssr: false })
-const Dashboard = dynamic(() => import('../components/Dashboard'), { ssr: false })
-const ExportButtons = dynamic(() => import('../components/ExportButtons'), { ssr: false })
+#const Dashboard = dynamic(() => import('../components/Dashboard'), { ssr: false })
+#const ExportButtons = dynamic(() => import('../components/ExportButtons'), { ssr: false })
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
