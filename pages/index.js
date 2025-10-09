@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CapitalNaturalEval</title>
+        <title>NaturePulse</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
@@ -29,7 +29,7 @@ export default function Home() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white/70 backdrop-blur border-b border-emerald-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-          <a href="#home" className="font-semibold text-stone-800">CapitalNaturalEval</a>
+          <a href="#home" className="font-semibold text-stone-800">NaturePulse</a>
           <nav className="hidden md:flex gap-6 text-stone-700">
             <a href="#como-funciona" className="hover:text-emerald-700">Cómo Funciona</a>
             <a href="#soluciones" className="hover:text-emerald-700">Soluciones</a>
@@ -60,7 +60,7 @@ export default function Home() {
                 las empresas tienen la responsabilidad y la oportunidad de actuar.
               </p>
               <p className="text-lg text-stone-700">
-                En <span className="font-semibold">CapitalNaturalEval</span>, ayudamos a las organizaciones a integrar
+                En <span className="font-semibold">NaturePulse</span>, ayudamos a las organizaciones a integrar
                 Soluciones Basadas en la Naturaleza (SbN/NbS) en su estrategia, desbloqueando valor más allá del
                 beneficio financiero. Identificamos oportunidades, comparamos alternativas y construimos casos de negocio
                 que integran beneficios climáticos, de biodiversidad y sociales - basados en evidencia y listos para decidir.
