@@ -4,8 +4,9 @@ import dynamic from 'next/dynamic'
 import { useState } from 'react'
 
 const MapWrapper = dynamic(() => import('../components/Map'), { ssr: false })
-#const Dashboard = dynamic(() => import('../components/Dashboard'), { ssr: false })
-#const ExportButtons = dynamic(() => import('../components/ExportButtons'), { ssr: false })
+const Dashboard = dynamic(() => import('../components/Dashboard'), { ssr: false })
+// Si algún día vuelves a usar los botones de exportación, descomenta la línea siguiente:
+// const ExportButtons = dynamic(() => import('../components/ExportButtons'), { ssr: false })
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -227,7 +228,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
 
         {/* Equipo */}
         <section id="equipo" className="py-16 bg-gradient-to-b from-white to-lime-50/50">
