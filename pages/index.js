@@ -10,7 +10,7 @@ const Dashboard = dynamic(() => import('../components/Dashboard'), { ssr: false 
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.6 } }
+  show: { opacity: 1, transition: { duration: 0.6 }, y: 0 }
 }
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NaturePulse</title>
+        <title>NatureTargets</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
@@ -30,7 +30,7 @@ export default function Home() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white/70 backdrop-blur border-b border-emerald-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-          <a href="#home" className="font-semibold text-stone-800">NaturePulse</a>
+          <a href="#home" className="font-semibold text-stone-800">NatureTargets</a>
           <nav className="hidden md:flex gap-6 text-stone-700">
             <a href="#como-funciona" className="hover:text-emerald-700">Cómo Funciona</a>
             <a href="#soluciones" className="hover:text-emerald-700">Soluciones</a>
@@ -61,7 +61,7 @@ export default function Home() {
                 las empresas tienen la responsabilidad y la oportunidad de actuar.
               </p>
               <p className="text-lg text-stone-700">
-                En <span className="font-semibold">NaturePulse</span>, ayudamos a las organizaciones a integrar
+                En <span className="font-semibold">NatureTarget</span>, ayudamos a las organizaciones a integrar
                 Soluciones Basadas en la Naturaleza (SbN/NbS) en su estrategia, desbloqueando valor más allá del
                 beneficio financiero. Identificamos oportunidades, comparamos alternativas y construimos casos de negocio
                 que integran beneficios climáticos, de biodiversidad y sociales - basados en evidencia y listos para decidir.
@@ -234,7 +234,15 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl md:text-4xl font-bold text-stone-900 mb-6">Equipo Experto</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <div className="border border-emerald-200/70 rounded-2xl p-6 bg-white">
+              {/* Cristina - card clickable */}
+              <div className="border border-emerald-200/70 rounded-2xl p-6 bg-white relative cursor-pointer hover:shadow-md transition-shadow">
+                <a
+                  href="https://www.linkedin.com/in/cristinalafuente"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute inset-0 z-10"
+                  aria-label="Abrir LinkedIn de Cristina Lafuente"
+                />
                 <div className="flex gap-4 items-start">
                   <div className="h-20 w-20 rounded-xl bg-emerald-200 border border-emerald-300"></div>
                   <div>
@@ -246,12 +254,21 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="border border-emerald-200/70 rounded-2xl p-6 bg-white">
+
+              {/* Juan - card clickable */}
+              <div className="border border-emerald-200/70 rounded-2xl p-6 bg-white relative cursor-pointer hover:shadow-md transition-shadow">
+                <a
+                  href="https://www.linkedin.com/in/jean-rueda"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute inset-0 z-10"
+                  aria-label="Abrir LinkedIn de Juan Rueda"
+                />
                 <div className="flex gap-4 items-start">
                   <div className="h-20 w-20 rounded-xl bg-emerald-200 border border-emerald-300"></div>
                   <div>
                     <div className="text-lg font-semibold text-stone-900">Juan Rueda</div>
-                    <div className="text-emerald-800 font-medium">Director de Tecnología</div>
+                    <div className="text-emerald-800 font-medium">Asesor en Tecnología y ESG</div>
                     <p className="text-stone-700 mt-2">
                       Especialista en desarrollo de plataformas ambientales y ESG reporting.
                     </p>
@@ -273,9 +290,7 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap gap-3 md:justify-end">
               <div className="w-full mt-6 md:mt-0 md:w-auto md:ml-auto text-white/90">
-                <div className="mt-4">📧 info@naturepulse.com</div>
-                <div className="mt-1">📱 +34 XXX XXX XXX</div>
-                <div className="mt-1">🌐 LinkedIn </div>
+                <div className="mt-4">📧 info@naturetargets.com</div>
               </div>
             </div>
           </div>
