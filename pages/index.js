@@ -275,7 +275,7 @@ export default function Home() {
               <div className="w-full mt-6 md:mt-0 md:w-auto md:ml-auto text-white/90">
                 <div className="mt-4">📧 info@naturepulse.com</div>
                 <div className="mt-1">📱 +34 XXX XXX XXX</div>
-                <div className="mt-1">🌐 LinkedIn | Twitter | Medium</div>
+                <div className="mt-1">🌐 LinkedIn </div>
               </div>
             </div>
           </div>
@@ -283,7 +283,7 @@ export default function Home() {
       </main>
 
       <footer className="py-6 text-center text-stone-600">
-        © 2024 Herramienta de Evaluación de Capital Natural.
+        © 2025 Auditoría y Evaluación de Capital Natural.
       </footer>
     </>
   )
