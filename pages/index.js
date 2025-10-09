@@ -33,8 +33,6 @@ export default function Home() {
           <nav className="hidden md:flex gap-6 text-stone-700">
             <a href="#como-funciona" className="hover:text-emerald-700">Cómo Funciona</a>
             <a href="#soluciones" className="hover:text-emerald-700">Soluciones</a>
-            <a href="#casos" className="hover:text-emerald-700">Casos de Éxito</a>
-            <a href="#funcionalidades" className="hover:text-emerald-700">Funcionalidades</a>
             <a href="#equipo" className="hover:text-emerald-700">Equipo</a>
             <a href="#contacto" className="hover:text-emerald-700">Contacto</a>
           </nav>
@@ -184,9 +182,6 @@ export default function Home() {
                     <blockquote className="p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-stone-700">
                       “Identificamos áreas con alto potencial y riesgo hídrico controlado para un portafolio más resiliente.”
                     </blockquote>
-                    <a href="#casos" className="inline-block px-4 py-2 rounded-lg bg-emerald-700 text-white hover:bg-emerald-800">
-                      Ver caso de éxito
-                    </a>
                   </>
                 )}
 
@@ -200,9 +195,6 @@ export default function Home() {
                     <blockquote className="p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-stone-700">
                       “Datos irrefutables para fundamentar decisiones y transparentar resultados ante la ciudadanía.”
                     </blockquote>
-                    <a href="#casos" className="inline-block px-4 py-2 rounded-lg bg-emerald-700 text-white hover:bg-emerald-800">
-                      Ver caso de éxito
-                    </a>
                   </>
                 )}
 
@@ -216,9 +208,6 @@ export default function Home() {
                     <blockquote className="p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-stone-700">
                       “La plataforma nos ayudó a focalizar esfuerzos en corredores ecológicos clave.”
                     </blockquote>
-                    <a href="#casos" className="inline-block px-4 py-2 rounded-lg bg-emerald-700 text-white hover:bg-emerald-800">
-                      Ver caso de éxito
-                    </a>
                   </>
                 )}
 
@@ -232,9 +221,6 @@ export default function Home() {
                     <blockquote className="p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-stone-700">
                       “Implementamos soluciones con ROI ecológico tangible en meses, no años.”
                     </blockquote>
-                    <a href="#casos" className="inline-block px-4 py-2 rounded-lg bg-emerald-700 text-white hover:bg-emerald-800">
-                      Ver caso de éxito
-                    </a>
                   </>
                 )}
               </div>
